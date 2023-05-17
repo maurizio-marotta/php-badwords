@@ -3,8 +3,8 @@
 $text = $_POST['text'];
 $parola = $_POST ['parola'];
 
-var_dump($parola);
 var_dump($text);
+var_dump($parola);
 
 ?>
 <!DOCTYPE html>
@@ -17,9 +17,7 @@ var_dump($text);
 </head>
 <body>
   <div>
-    <div></div>
-    <div></div>
-    <div></div>
+  
   </div>
 </body>
 </html>
