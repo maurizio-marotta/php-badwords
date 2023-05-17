@@ -3,7 +3,7 @@
 $text = $_POST['text'];
 $parola = $_POST ['parola'];
 
-$fixedText = str_replace('text', '***', 'text')
+$fixedText = str_replace($parola, '***', $text);
 
 ?>
 <!DOCTYPE html>
