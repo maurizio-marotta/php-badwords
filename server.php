@@ -1,6 +1,10 @@
 <?php
 
+$text = $_POST['text'];
+$parola = $_POST ['parola'];
 
+var_dump($parola);
+var_dump($text);
 
 ?>
 <!DOCTYPE html>
@@ -12,6 +16,10 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>ciao</h1>
+  <div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
 </body>
 </html>
