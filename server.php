@@ -3,8 +3,7 @@
 $text = $_POST['text'];
 $parola = $_POST ['parola'];
 
-var_dump($text);
-var_dump($parola);
+$fixedText = str_replace('text', '***', 'text')
 
 ?>
 <!DOCTYPE html>
@@ -18,6 +17,11 @@ var_dump($parola);
 <body>
   <div>
   <h1>testo orgiginale (lunghezza <?php echo strlen($text) ?> )</h1>
+  <span> <?php echo $text ?></span>
+  </div>
+  <div>
+  <h1>testo corretto (lunghezza <?php echo strlen($fixedText) ?> )</h1>
+  <span> <?php echo $fixedText ?></span>
   </div>
 </body>
 </html>
