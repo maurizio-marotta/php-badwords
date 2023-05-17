@@ -17,7 +17,7 @@ var_dump($parola);
 </head>
 <body>
   <div>
-  
+  <h1>testo orgiginale (lunghezza <?php echo strlen($text) ?> )</h1>
   </div>
 </body>
 </html>
